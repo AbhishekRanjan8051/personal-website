@@ -3,7 +3,7 @@ import Navbar from "../Navbar/navbar";
 
 import "./home.css";
 import About from "../About/About";
-import Typicals from "./../typical";
+// import Typicals from "./../typical";
 const Home = () => {
   return (
     <>

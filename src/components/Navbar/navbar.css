@@ -4,7 +4,7 @@
   /* justify-content: center; */
   background: transparent;
   width: 100%;
-  /* margin: auto; */
+  margin: auto;
   font-family: "Poppins, sans-serif";
   font-size: 14px;
   font-weight: 400;
@@ -17,6 +17,8 @@
   float: right;
   margin-right: 10px;
   width: 60%;
+  margin: auto;
+    margin-top: 15px;
 }
 .rightnavbar > ul {
   display: flex;
@@ -34,6 +36,7 @@
 }
 li:hover {
   cursor: pointer;
+  color:aqua
 }
 li:after {
   background: none repeat scroll 0 0 transparent;

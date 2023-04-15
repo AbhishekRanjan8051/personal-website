@@ -1,4 +1,5 @@
 .container {
+  margin-top: 20px;
   display: grid;
   /* grid-template-columns: 50% 50%; */
   grid-template-columns: repeat(2, 1fr);
@@ -11,11 +12,36 @@
   color: #343434;
   font-style: normal;
 }
-.aboutme{
-    font-family: "Poppins, sans-serif";
-    font-size: 15px;
-    font-weight: 400;
-    font-style: normal;
-    line-height: 20px;
-    color: #999999;
+.aboutme {
+  font-family: "Poppins, sans-serif";
+  font-size: 15px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 20px;
+  color: #999999;
+}
+.aboutus {
+  padding: 20px;
+  line-height: 25px;
+  font-size: 18px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.allicon {
+  margin: auto;
+}
+.iconcard {
+  width: fit-content;
+  padding: 10px;
+  margin: auto;
+}
+.icon {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+}
+.icon:hover {
+  color: rgb(25, 124, 124);
+  cursor: pointer;
+  box-shadow: rgba(3, 247, 247, 0.8) 0px 1px 20px;
 }
