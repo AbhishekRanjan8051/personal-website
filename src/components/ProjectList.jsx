@@ -1,7 +1,7 @@
 import React from "react";
 import { Card } from "react-bootstrap";
-import Calculator from "../assests/image/calculator.png";
-import FindImage from "../assests/image/findimage.png";
+import Calculator from "../assests/img/calculator.png";
+import FindImage from "../assests/img/findimage.png";
 
 const Project = () => {
 	return (

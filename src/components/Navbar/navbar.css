@@ -18,7 +18,7 @@
   margin-right: 10px;
   width: 60%;
   margin: auto;
-    margin-top: 15px;
+  margin-top: 15px;
 }
 .rightnavbar > ul {
   display: flex;
@@ -26,6 +26,7 @@
   font-size: 24px;
   list-style: none;
 }
+
 .leftnavbar {
   float: left;
   width: 30%;
@@ -34,11 +35,15 @@
   justify-content: center;
   margin-top: 10px;
 }
-li:hover {
-  cursor: pointer;
-  color:aqua
+a {
+  text-decoration: none;
+  color: #fff;
 }
-li:after {
+a:hover {
+  cursor: pointer;
+  color: aqua;
+}
+a:after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -50,7 +55,7 @@ li:after {
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
-li:hover:after {
+a:hover:after {
   width: 100%;
   left: 0;
 }

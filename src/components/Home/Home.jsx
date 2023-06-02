@@ -3,7 +3,9 @@ import Navbar from "../Navbar/navbar";
 
 import "./home.css";
 import About from "../About/About";
+import Project from "../Projects/Project";
 // import Typicals from "./../typical";
+
 const Home = () => {
   return (
     <>
@@ -12,6 +14,8 @@ const Home = () => {
         {/* <Typicals /> */}
       </div>
       <About />
+      <Project />
+     
     </>
   );
 };
