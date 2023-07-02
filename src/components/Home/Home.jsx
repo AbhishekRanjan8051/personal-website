@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../Navbar/navbar";
+import abhishekranjan from "../../assests/img/abhishekranjan.png";
 
 import "./home.css";
 import About from "../About/About";
@@ -13,9 +14,11 @@ const Home = () => {
         <Navbar />
         {/* <Typicals /> */}
       </div>
+      <div className="firstcontainers">
+        <img src={abhishekranjan} alt="" />
+      </div>
       <About />
       <Project />
-     
     </>
   );
 };

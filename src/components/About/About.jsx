@@ -1,7 +1,6 @@
 import React from "react";
 import "./about.css";
-import abhishekranjan from "../../assests/img/abhishekranjan.png";
-import { Card } from "react-bootstrap";
+import { Card, Button } from "react-bootstrap";
 // import {
 //   AiFillGithub,
 //   AiFillLinkedin,
@@ -21,16 +20,33 @@ import { FaNodeJs } from "react-icons/fa";
 import { GrMysql } from "react-icons/gr";
 import { DiBitbucket } from "react-icons/di";
 import { AiFillGithub } from "react-icons/ai";
+import ResuableCompponents from "../Shared/ResuableCompponents";
 
 const About = () => {
   return (
     <>
       <div className="container">
-        <div className="firstcontainer">
-          <img src={abhishekranjan} alt="" />
+        <div className="eductiondetails">
+          <p style={{ color: "white" }}>EDUCTIONAL DETAILS</p>
+          <ResuableCompponents
+            head={"Full Stack Web Development"}
+            collage={"Masai School"}
+            state={"Benguluru"}
+          />
+          <ResuableCompponents
+            head={"B.Sc(Mathematics)"}
+            collage={"Lalit Narayan Mithila University"}
+            state={"Darbhanga,Bihar"}
+          />
+          <ResuableCompponents
+            head={"12th (Science)"}
+            collage={"M.F.D.K. COLLEGE BAGHLA"}
+            state={"Samastipur,Bihar"}
+          />
         </div>
+
         <div className="secondcontainer">
-          <p>ABOUT ME</p>
+          <p style={{ color: "white" }}>ABOUT ME</p>
           <div className="aboutme">
             <span>FULL STACK WEB DEVELOPER</span>
             <br />
@@ -51,32 +67,7 @@ const About = () => {
             </Card>
           </div>
           <br />
-          {/* <div className="aboutusicon">
-            <Card className="iconcard">
-              <span className="allicon">
-                <AiFillGithub
-                  className="icon"
-                  onClick={() => {
-                    window.open("https://github.com/AbhishekRanjan8051");
-                  }}
-                />
-                <AiFillLinkedin
-                  className="icon"
-                  onClick={() => {
-                    window.open(
-                      "https://www.linkedin.com/in/abhishek-ranjan-8051/"
-                    );
-                  }}
-                />
-                <AiFillCodeSandboxCircle
-                  className="icon"
-                  onClick={() => {
-                    window.open("https://codesandbox.io/u/abhishekranjan8051");
-                  }}
-                />
-              </span>
-            </Card>
-          </div> */}
+
           <div className="skills">
             <Card style={{ padding: "20px" }}>
               <h1 style={{ textAlign: "center" }}>Frontend</h1>

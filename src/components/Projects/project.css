@@ -41,14 +41,16 @@
   justify-content: center;
   margin: auto;
   margin-bottom: 40px;
+  background: none;
+  border: none;
 }
 .projectcard {
   /* width: fit-content; */
-  width: 55%;
+  width: 40%;
   padding: 10px;
   display: flex;
   flex-direction: row;
-  gap: 50%;
+  gap: 30%;
   margin: auto;
   transition: all 0.2s ease-in-out;
 }

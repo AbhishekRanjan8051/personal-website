@@ -3,9 +3,12 @@ import { Card, Button } from "react-bootstrap";
 import Calculator from "../../assests/img/calculator.png";
 import FindImage from "../../assests/img/findimage.png";
 import Porter from "../../assests/img/porter.png";
+import { useNavigate } from "react-router-dom";
 
 import "./project.css";
 const Project = () => {
+  const history = useNavigate();
+
   return (
     <>
       <div className="project">
@@ -35,9 +38,12 @@ const Project = () => {
         <br />
         <br />
         <br />
-        <h1 style={{ margin: "auto", textAlign: "center" }}>Projects</h1>
+
         <div className="projectlist">
           <Card className="projectboxcard">
+            <h1 style={{ margin: "auto", textAlign: "center", color: "white" }}>
+              Projects
+            </h1>
             <Card className="projectcard">
               <div className="projectdetails">
                 <span style={{ textAlign: "center" }}>Calculator Web App</span>{" "}
@@ -111,7 +117,12 @@ const Project = () => {
               </div>
             </Card>
 
-            <Button style={{ width: "fit-content", margin: "auto" }}>
+            <Button
+              style={{ width: "fit-content", margin: "auto" }}
+              onClick={() => {
+                history("/projectlist");
+              }}
+            >
               More...
             </Button>
           </Card>
